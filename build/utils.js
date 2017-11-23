@@ -63,7 +63,7 @@ exports.cssLoaders = function (options) {
     var loaders = [cssLoader, 'sass-loader', {
       loader: 'sass-resources-loader',
       options: {
-        resources: [resolveResouce('theme.scss')]
+        resources: [resolveResouce('theme.scss'), resolveResouce('func.scss')]
       }
     }]
 
