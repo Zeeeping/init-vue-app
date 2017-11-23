@@ -1,0 +1,91 @@
+@import "assets/css/reset/reset.css";
+
+body {
+  font-size: 14px;
+  font-family: PingFangSC-Regular, sans-serif;
+}
+
+// body::-webkit-scrollbar {
+//   display: none;
+// }
+::-webkit-scrollbar {
+  width: 5px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background: rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: $theme_supcolor;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 5px;
+  background: $theme_color;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+// 内容区域
+.container {
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+// 清除浮动
+.clearfix {
+  clear: both;
+}
+
+.clearfix:after {
+  display: block;
+  content: ".";
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+// 文案超出一行省略
+.over_text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+a:visited,
+a:link,
+a:active,
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: $theme_supcolor;
+}
+
+a:hover {
+  transition: color .3s linear;
+  color: $theme_color;
+}
+
+a.active {
+  color: $theme_color;
+}
+
+.pic {
+  overflow: hidden;
+}
+
+[v-cloak] {
+  display: none;
+}
