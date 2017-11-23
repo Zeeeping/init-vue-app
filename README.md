@@ -1,8 +1,8 @@
-# haotaitai-app
+# vue-mobile-app
 
-> A Vue.js project
-> 一个基于Vue框架搭建的基础移动端模版
-> css预处理用的是sass
+> A Vue.js project,
+> 一个基于Vue框架搭建的基础移动端模版,
+> css预处理用的是sass,
 > 使用了 vue init webpack 后添加了:
 >   node-sass / sass-loader / sass-resources-loader
 > 
