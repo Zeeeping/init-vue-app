@@ -4,3 +4,5 @@
  */
 
 import Vue from 'vue'
+import { ajax } from 'utils'
+console.log(ajax)
