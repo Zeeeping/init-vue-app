@@ -38,7 +38,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: $theme_color;
-  margin-top: 60px;
+  margin-top: r(20px);
 }
 
 </style>
