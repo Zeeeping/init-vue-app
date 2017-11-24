@@ -16,11 +16,14 @@ export default {
     }
   },
   methods: {
-    init() {}
+    init() {},
+    getBanner() {
+      this.api_banner_getList({ data: { abc: 12 } }).then(res => {
+        console.log(res)
+      })
+    }
   },
-  created() {
-    this.init()
-  },
+  created() {},
   mounted() {}
 }
 

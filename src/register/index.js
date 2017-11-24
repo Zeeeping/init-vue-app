@@ -4,5 +4,12 @@
  */
 
 import Vue from 'vue'
-import { ajax } from 'utils'
-console.log(ajax)
+import plugins from './plugins.js'
+
+Vue.use({
+  install(Vue, opations) {
+    Object.keys(plugins).forEach(key => {
+      Vue.prototype[key] = plugins[key]
+    })
+  }
+})
