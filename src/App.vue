@@ -6,7 +6,22 @@
 </template>
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  props: {},
+  computed: {},
+  components: {},
+  watch: {
+    $route(to, from) {
+      this.init()
+    }
+  },
+  methods: {
+    init() {}
+  },
+  created() {
+    this.init()
+  },
+  mounted() {}
 }
 
 </script>
