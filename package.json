@@ -1,8 +1,8 @@
 {
-  "name": "haotaitai-app",
+  "name": "Basic-Mobile-Template",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "kaido <kaido@qi-cloud.com>",
+  "author": "Zep <zp49516591@163.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
