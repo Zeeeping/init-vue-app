@@ -10,7 +10,9 @@ export default {
   methods: {},
   computed: {},
   components: {},
-  data() {},
+  data() {
+    return {}
+  },
   mounted() {},
   created() {}
 }

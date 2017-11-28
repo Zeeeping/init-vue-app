@@ -1,6 +1,6 @@
 <!-- Created by Zep on 2017/11/28. -->
 <template>
-  <div class="headerNav-component">headerNav-component</div>
+  <div class="headerNav-component">headerNav-Component</div>
 </template>
 <script>
 import headerNav from './headerNav.js'

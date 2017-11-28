@@ -1,6 +1,6 @@
 <!-- Created by Zep on 2017/11/28. -->
 <template>
-  <div class="home-container">Home</div>
+  <div class="home-container">Home-Page</div>
 </template>
 <script>
 import Home from './Home.js'
