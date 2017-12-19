@@ -30,8 +30,8 @@ npm run build --report
 ```
 
 ## 开发约定
-+ 页面文件夹命名方式以首字母大写命名 => ProductDetails(产品详情)
-+ 组件文件夹命名方式以正常驼峰式命名 => slideBox(首页轮播图组件)
++ 页面文件夹命名方式以正常驼峰式命名 => productDetails(产品详情)
++ 组件文件夹命名方式以首字母大写命名 => SlideBox(首页轮播图组件)
 
 ## 项目演示
 + [音乐webapp](https://music.zzzep.com)
