@@ -3,8 +3,10 @@
  * 
  */
 
+import layout from './layout/'
 import headerNav from './headerNav/'
-
+console.log(layout)
 export {
+  layout,
   headerNav
 }

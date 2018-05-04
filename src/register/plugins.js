@@ -6,6 +6,7 @@
 import * as utils from 'utils'
 
 var plugins = {}
+
 export default plugins
 
 function mergeManyObjToOneObj(objs) {

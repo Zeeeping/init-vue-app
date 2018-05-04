@@ -4,4 +4,5 @@
  */
 
 import headerNav from './headerNav.vue'
+
 export default headerNav
