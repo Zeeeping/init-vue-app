@@ -14,6 +14,6 @@ export default new Router({
   mode: 'history',
   routes: [{
     path: '/',
-    component: pages.Home
+    component: pages.home
   }]
 })
