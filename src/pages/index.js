@@ -3,7 +3,7 @@
  * 
  */
 
-import Home from './Home/'
+import home from './home/'
 export {
-  Home
+  home
 }

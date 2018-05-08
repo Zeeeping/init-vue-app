@@ -3,11 +3,11 @@
   <div class="home-container">Home-Page</div>
 </template>
 <script>
-import Home from './Home.js'
-export default Home
+import home from './home.js'
+export default home
 
 </script>
 <style lang="scss" scoped>
-@import './Home.scss'
+@import './home.scss';
 
 </style>
