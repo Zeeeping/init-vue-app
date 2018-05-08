@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <layout class=""></layout>
+    <HeaderNav class=""></HeaderNav>
   </div>
 </template>
 <script>
