@@ -3,10 +3,9 @@
  * 
  */
 
-import layout from './layout/'
-import headerNav from './headerNav/'
-console.log(layout)
+
+import HeaderNav from './HeaderNav/'
+
 export {
-  layout,
-  headerNav
+  HeaderNav
 }
