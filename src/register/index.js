@@ -17,9 +17,9 @@ Object.keys(mixins).forEach(key => {
 })
 
 Object.keys(cps).forEach(key => {
-  let cName = key.replace(/([A-Z])/g, '-$1').toLowerCase()
-  if (cName && cName[0] === '-') cName = cName.replace('-', '')
-  Vue.component(cName, cps[key])
+  // let cName = key.replace(/([A-Z])/g, '-$1').toLowerCase()
+  // if (cName && cName[0] === '-') cName = cName.replace('-', '')
+  Vue.component(key, cps[key])
 })
 
 Vue.use({
