@@ -29,11 +29,15 @@ module.exports = {
       'assets': resolve('src/assets'),
       'components': resolve('src/components'),
       'config': resolve('src/config'),
+      'layout': resolve('src/layout'),
       'mixins': resolve('src/mixins'),
+      // pages 和 views 都是视图。
       'pages': resolve('src/pages'),
       'register': resolve('src/register'),
       'router': resolve('src/router'),
+      'store': resolve('src/store'),
       'utils': resolve('src/utils'),
+      'views': resolve('src/views'),
       'icon': resolve('src/assets/css/icon')
     }
   },
