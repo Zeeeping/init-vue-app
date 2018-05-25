@@ -4,7 +4,7 @@
  */
 
 
-import HeaderNav from './HeaderNav/'
+import HeaderNav from './HeaderNav/HeaderNav.vue'
 
 export {
   HeaderNav

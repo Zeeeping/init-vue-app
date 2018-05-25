@@ -3,7 +3,8 @@
  * 
  */
 
-import home from './home/'
+import home from './home/home.vue'
+
 export {
   home
 }
