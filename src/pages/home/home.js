@@ -5,14 +5,15 @@
 
 export default {
   name: 'home-page',
-  props: {},
-  watch: {},
-  methods: {},
-  computed: {},
+  mixins: [],
   components: {},
+  props: {},
   data() {
     return {}
   },
-  mounted() {},
-  created() {}
+  computed: {},
+  methods: {},
+  created: {},
+  mounted: {},
+  watch: {}
 }
