@@ -6,14 +6,13 @@
 <script>
 export default {
   name: 'app',
-  props: {},
-  computed: {},
+  // mixins: [],
   components: {},
-  watch: {
-    $route(to, from) {
-      this.init()
-    }
+  props: {},
+  data() {
+    return {}
   },
+  computed: {},
   methods: {
     init() {},
     getBanner() {
@@ -23,7 +22,12 @@ export default {
     }
   },
   created() {},
-  mounted() {}
+  mounted() {},
+  watch: {
+    $route(to, from) {
+      this.init()
+    }
+  }
 }
 
 </script>
